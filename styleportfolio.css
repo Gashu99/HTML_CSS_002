@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	display: flex;
+	background-color: #74C69D;
+	width: 100%;
+	height:auto;
+	justify-content: space-between;
+
+}
+.header .headerdroite{
+	margin-top: 3%;
+	margin-right: 5%;
+}
+.header .headergauche img{
+	width: 40%;
+	height: 50%;
+	margin-left: 5%;
+	margin-top: 6%;
+}
+.header .headerdroite nav ul a{
+	text-decoration: none;
+	color: white;
+	margin-top: 4%;
+}
+.firstblok{
+	display: inline-flex;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+.firstblok .im1{
+	width: 40%;
+}
+.firstblok .im2{
+	margin-left: 2%;
+	width: 40%;
+}
+.centre .work{
+	margin-top: 5%;
+	color: #74C69D;
+	text-align: center;
+}
+.centre h2,p{
+	text-align: center;
+}
+.secondblok{
+	display: inline-flex;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 5%;
+
+}
+.secondblok .im3{
+	width: 40%;
+}
+.secondblok .im4{
+	margin-left: 2%;
+	width: 40%;
+}
+.thirdblok{
+	display: inline-flex;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+.thirdblok .im5{
+	width: 40%;
+}
+.thirdblok .im6{
+	margin-left: 2%;
+	width: 40%;
+}
+.fourblok{
+	display: inline-flex;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+.fourblok .im7{
+	width: 40%;
+	height: 35%;
+}
+.fourblok .im8{
+	margin-left: 2%;
+	width: 40%;
+	height: 35%;
+}
+.centre .LM{
+	width: 12%;
+	height: 12%;
+	margin-left: 43%;
+	margin-top: 3%;
+	color: white;
+	background-color: black;
+	border: solid;
+	text-align: center;
+	border: 2px;
+	margin-bottom: 3%;
+}
+.pieddepage{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #74C69D;
+	height: 70px;
+
+}
+
+
+.pieddepage .footerdroite{
+	display: flex;
+	color: white;
+	margin-right: 10%;
+
+}
+
+.pieddepage .footergauche{
+	color: white;
+	margin-left: 10%;
+
+}
+.pieddepage .footerdroite .start{
+	margin-top: 18px;
+
+}

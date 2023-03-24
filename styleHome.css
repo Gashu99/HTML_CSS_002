@@ -1,0 +1,228 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+}
+.headerentiere{
+	background-color: #74C69D;
+	width: 100%;
+	height:auto;
+	
+	
+}
+.headerentiere .headerenhaut{
+	display: flex;
+	justify-content: space-between;
+}
+.headerentiere .headerenhaut .headerenhautdroite{
+	margin-right: 10%;
+
+}
+.headerentiere .headerenhaut .headerenhautgauche img{
+	width: 150px;
+	margin-left: 10%;
+}
+.headerentiere .headerenhaut nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.headerentiere .headerenbas{
+	display: flex;
+	justify-content: space-between;
+}
+.headerentiere .headerenbas .headerenbasgauche{
+	color: white;
+	margin-top: 50px;
+	margin-left: 5%;
+	margin-bottom: 39px;
+}
+
+.headerentiere .headerenbas .headerenbasdroite img{
+	width: 400px;
+	height: 200px;
+	margin-right: -4%;
+	
+	}
+
+.headerentiere .headerenbas .headerenbasgauche .explore{
+	color: black;
+	border: solid;
+	border-color: white;
+	background-color: white;
+	width: 20%;
+	height: 20%;
+	margin-left:25% ;
+	margin-top: 5%;
+	text-align: center;
+}
+.centre{
+	text-align: center;
+	margin-top: 5%;
+}
+.centre .parteners{
+	text-align: center;
+	color:#74C69D ;
+}
+.centre section{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.centre section .google{
+	width: 10%;
+	height: 50px;
+	
+}
+.centre section .soft{
+	width: 10%;
+	height: 50px;
+	
+}
+.centre section .airbnb{
+	width: 10%;
+	height: 50px;
+	
+}
+.centre section .facebook{
+	width: 10%;
+	height: 50px;
+	
+}
+.centre section .spotify{
+	width: 10%;
+	height: 50px;
+	
+}
+
+.centre .LM{
+	width: 12%;
+	height: 12%;
+	margin-left: 43%;
+	margin-top: 3%;
+	color: white;
+	background-color: black;
+	border: solid;
+	text-align: center;
+}
+.centre .centre2 .img2{
+	width: 40%;
+	height: 10%;
+	margin-left: 10%;
+}
+.centre section .centre2droite {
+	margin-top: 10%;
+	margin-left: 10%;
+	text-align: justify;
+}
+.centre section .LM2{
+	color: white;
+	background-color: black;
+	width: 30%;
+	height: 10%;
+}
+.centre section .centre3gauche{
+	margin-top: 10%;
+	margin-left: 10%;
+	text-align: justify;
+}
+.centre .centre3 .img3{
+	width: 30%;
+	height: 10%;
+	margin-left: 10%;
+}
+
+.centre .team{
+	text-align: center;
+	color:#74C69D ;
+	margin-top: 3%;
+}
+
+.centre .talents{
+	display: flex;
+	margin-left: 8%;
+	margin-right: 8%;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+.centre .talents .pers1{
+	width: 25%;
+	height: 10%;
+	border-radius: 5px;
+	box-shadow:1px 1px 1px  rgba(0, 0, 0, 0.2)	;
+	
+	
+}
+
+.centre .talents .pers2{
+	width: 25%;
+	height: 10%;
+	border-radius: 5px;
+	box-shadow:1px 1px 1px  rgba(0, 0, 0, 0.2)	;
+	
+	margin-left: 2%;
+}
+.centre .talents .pers3{
+	width: 25%;
+	height: 10%;
+	border-radius: 5px;
+	box-shadow:1px 1px 1px  rgba(0, 0, 0, 0.2)	;
+	margin-left: 2%;
+}
+.centre .talents .pers4{
+	width: 25%;
+	height: 10%;
+	border-radius: 5px;
+	box-shadow:1px 1px 1px  rgba(0, 0, 0, 0.2)	;
+	
+	margin-left: 2%;
+}
+
+.centre .viewteam{
+	color: white;
+	background-color: black;
+	border: solid;
+	width: 10%;
+	height: 10%;
+	margin-left: 50%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.pieddepage{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #74C69D;
+	height: 70px;
+
+}
+
+
+.pieddepage .footerdroite{
+	display: flex;
+	color: white;
+	margin-right: 10%;
+
+}
+
+.pieddepage .footergauche{
+	color: white;
+	margin-left: 10%;
+
+}
+.pieddepage .footerdroite .start{
+	margin-top: 18px;
+
+}
+
+@media screen and (max-width: 500px){
+	.centre .talents{
+	flex-direction: column;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+}

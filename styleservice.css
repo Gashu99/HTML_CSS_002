@@ -1,0 +1,191 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	display: flex;
+	background-color: #74C69D;
+	width: 100%;
+	height:auto;
+	justify-content: space-between;
+
+}
+.header .headerdroite{
+	margin-top: 3%;
+	margin-right: 5%;
+
+}
+.header .headergauche img{
+	width: 50%;
+	height: 50%;
+	margin-left: 5%;
+	margin-top: 6%;
+}
+.header .headerdroite nav ul a{
+	text-decoration: none;
+	color: white;
+	margin-top: 4%;
+
+}
+.centre .plan{
+	margin-top: 5%;
+	color: #74C69D;
+	text-align: center;
+}
+.centre h2,p{
+	text-align: center;
+}
+section{
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+section .service1{
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 30%;
+	height: 40%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+section .service1 .text{
+	margin-bottom: 5%;
+}
+section .service1 .LM{
+	width: 50%;
+	height: 12%;
+	margin-left: 28%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: white;
+	background-color: black;
+	border: solid;
+	text-align: center;
+}
+
+section .service2{
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 30%;
+	height: 40%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+section .service2 .text{
+	margin-bottom: 5%;
+}
+section .service2 .LM{
+	width: 50%;
+	height: 12%;
+	margin-left: 28%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: white;
+	background-color: black;
+	border: solid;
+	text-align: center;
+}
+
+section .service3{
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 30%;
+	height: 40%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+section .service3 .text{
+	margin-bottom: 5%;
+}
+section .service3 .LM{
+	width: 50%;
+	height: 12%;
+	margin-left: 28%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: white;
+	background-color: black;
+	border: solid;
+	text-align: center;
+}
+section{
+	display: flex;
+	margin-left: 10%;
+
+}
+
+.pieddepage{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #74C69D;
+	height: 70px;
+
+}
+
+
+.pieddepage .footerdroite{
+	display: flex;
+	color: white;
+	margin-right: 10%;
+
+}
+
+.pieddepage .footergauche{
+	color: white;
+	margin-left: 10%;
+
+}
+.pieddepage .footerdroite .start{
+	margin-top: 18px;
+
+}
+@media screen and (max-width: 500px){
+	*{
+		height: auto;
+		margin:0;
+		padding: 0;
+	}
+	section{  
+		
+		display: inline-block;
+		flex-direction: column;
+		justify-content: space-between;
+}
+section .service1{
+	margin-top: 5%;
+	margin-left: 15%;
+	width: 80%;
+	height: 40%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+section .service2{
+	margin-top: 5%;
+	margin-left: 15%;
+	width: 80%;
+	height: 40%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+section .service3{
+	margin-top: 5%;
+	margin-left: 15%;
+	width: 80%;
+	height: 40%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+	.pieddepage{
+		display: inline-block;
+		height: 100px;
+	}
+}

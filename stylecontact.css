@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+	height: auto;
+}
+
+.header{
+	display: flex;
+	background-color: #74C69D;
+	width: 100%;
+	height:auto;
+	justify-content: space-between;
+
+}
+.header .headerdroite{
+	margin-top: 3%;
+	margin-right: 5%;
+
+}
+.header .headergauche img{
+	width: 50%;
+	height: 50%;
+	margin-left: 5%;
+	margin-top: 6%;
+}
+.header .headerdroite nav ul a{
+	text-decoration: none;
+	color: white;
+	margin-top: 4%;
+
+}
+.centre{
+	margin-top: 5%;
+}
+.centre .contact{
+	
+	text-align: center;
+}
+.centre p{
+	text-align: center;
+}
+
+section{
+	display: flex;
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+}
+.formulaire form .input{
+	width: 200%;
+	background-color: rgba(175, 150, 150, 0.3);
+}
+.formulaire form .message{
+	width: 200%;
+	height: 50px;
+	background-color: rgba(175, 150, 150, 0.3);
+}
+.formulaire form .bouton{
+	width: 200%;
+	background-color: black;
+	color: white;
+	margin-top: 4%;
+}
+section .carte{
+	margin-left: 22%;
+}
+
+
+.pieddepage{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #74C69D;
+	height: 70px;
+
+}
+
+
+.pieddepage .footerdroite{
+	display: flex;
+	color: white;
+	margin-right: 10%;
+
+}
+
+.pieddepage .footergauche{
+	color: white;
+	margin-left: 10%;
+
+}
+.pieddepage .footerdroite .start{
+	margin-top: 18px;
+
+}
+
+@media screen and (max-width: 400px){
+	*{
+		
+		margin:0;
+		padding: 0;
+	}
+	section{  
+		
+		display: inline-block;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+}
+section .carte{
+	width: 100%;
+	height: 40%;
+	margin-top: 10%;
+	margin-left:0% ;
+	
+}
+.formulaire form .bouton{
+	width: 80%;
+	background-color: black;
+	color: white;
+	margin-top: 4%;
+}
+.formulaire form .input{
+	width: 80%;
+	background-color: rgba(175, 150, 150, 0.3);
+}
+.formulaire form .message{
+	width: 80%;
+	height: 50px;
+	background-color: rgba(175, 150, 150, 0.3);
+}
+
+	.pieddepage{
+		display: inline-block;
+		height: auto;
+		margin-top: 50%;
+	}
+}
