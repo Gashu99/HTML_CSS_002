@@ -218,11 +218,35 @@
 }
 
 @media screen and (max-width: 500px){
+
+	.headerentiere .headerenbas{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+}
+
 	.centre .talents{
 	flex-direction: column;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 3%;
+	margin-right: 10%;
 	justify-content: space-between;
 	margin-top: 3%;
+
+}
+
+.centre section .centre1 img{
+	
+	flex-direction: column;
+	
+}
+.centre  .centre2{
+	display: inline-block;
+	flex-direction: column;
+	
+}
+.centre  .centre3{
+	display: flex;
+	flex-direction: column-reverse;
+	
 }
 }

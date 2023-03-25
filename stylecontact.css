@@ -102,9 +102,11 @@ section .carte{
 	}
 	section{  
 		
-		display: inline-block;
+		display: flex;
 		flex-direction: column-reverse;
 		justify-content: space-between;
+		width: 90%;
+		height: 90%;
 }
 section .carte{
 	width: 100%;
@@ -118,6 +120,7 @@ section .carte{
 	background-color: black;
 	color: white;
 	margin-top: 4%;
+
 }
 .formulaire form .input{
 	width: 80%;

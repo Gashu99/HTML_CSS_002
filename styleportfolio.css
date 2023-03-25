@@ -127,3 +127,41 @@
 	margin-top: 18px;
 
 }
+
+@media screen and (max-width: 400px){
+	*{
+		height: auto;
+		margin:0;
+		padding: 0;
+	}
+	.firstblok{
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+.secondblok{
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 5%;
+
+}
+.thirdblok{
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+.fourblok{
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+	
+}
